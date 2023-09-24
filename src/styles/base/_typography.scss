@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Encode Sans"),
+       /* Если не получилось, загрузит woff2 */
+  url("./assets/fonts/EncodeSans_Condensed-Regular.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+  url("./assets/fonts/EncodeSans_Condensed-Regular.woff") format("woff"),
+  url("./assets/fonts/EncodeSans_Condensed-Regular.ttf") format("ttf");
+}
